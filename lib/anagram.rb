@@ -7,6 +7,7 @@ class Anagram
 
     def match (words)
         words.filter do |word|
+            #individual letters split and sorting ability
             @word.chars.sort == word.chars.sort
         end
     end
